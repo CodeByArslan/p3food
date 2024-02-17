@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 section.hero{
+    padding-left: 100px;
     @apply grid;
     grid-template-columns: .4fr .6fr;
 }

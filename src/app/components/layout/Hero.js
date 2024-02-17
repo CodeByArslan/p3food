@@ -4,11 +4,11 @@ import Right from "../icons/Right";
 export default function Hero(){
     return (
         <section className="hero ">
-            <div >
+            <div className="  w-500">
                  <h1 className="text-4xl mt-10 font-semibold">
                 Everything<br/>
-                is better <br/>
-                with a&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;is better with<br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a CheeZious&nbsp;
                 <span className="text-primary">Pizza</span> 
             </h1>
             <p className="my-6 text-gray-500 text-sm">
@@ -23,11 +23,11 @@ export default function Hero(){
             </div>
             </div>
            
-            <div className="relative">
-            <Image src={'/pizza.png'} layout={'fill'}
-            objectFit={'contain'} alt={'pizza'}/>
+            <div className="relative px-20">
+            <Image src={'/pizza.png'} width={550} height={300} alt={'pizza'}/>
 
             </div>
+            
             
         </section>
     )
