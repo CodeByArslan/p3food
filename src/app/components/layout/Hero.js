@@ -3,7 +3,7 @@ import Right from "../icons/Right";
 
 export default function Hero(){
     return (
-        <section className="hero ">
+        <section className="hero  mt-8">
             <div className="  w-500">
                  <h1 className="text-4xl mt-10 font-semibold">
                 Everything<br/>

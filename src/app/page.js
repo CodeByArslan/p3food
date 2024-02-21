@@ -7,7 +7,7 @@ import SectionHeaders from "./components/layout/SectionHeaders";
 export default function Home() {
   return (
      <>
-      <Header/>
+      
       <Hero/> 
       <HomeMenu/>
       <section className=" text-center">
@@ -33,9 +33,7 @@ export default function Home() {
         </div>
         
       </section>
-      <footer className=" border-t text-center text-gray-500 mt-16 ">
-        &copy; 2023 ALL right reserved
-      </footer>
+      
      </>
   )
 }
